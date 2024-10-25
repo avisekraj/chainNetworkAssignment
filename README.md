@@ -1,27 +1,48 @@
-# Todo List Application
+# Angular Item List Application
 
-This is a simple Angular application that displays a list of todos fetched from a public API. The application allows users to sort the list by title and filter the list using a search input.
+This project is a simple Angular application that fetches a list of items from a public API and displays them with sorting and filtering options. The app uses **Angular Standalone Components**, **Bootstrap** for styling, and **HttpClient** for API requests.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Development](#development)
+- [Dependencies](#dependencies)
+- [License](#license)
 
 ## Features
 
-- Display a list of items fetched from an API
-- Sort items by title (ascending and descending)
-- Filter items by title using a search input
-- Basic error handling for API failures
+- Fetches a list of items from a public API.
+- Allows sorting items alphabetically.
+- Provides a text-based filter to search through items.
+- Responsive design using Bootstrap and ng-bootstrap.
 
-## Installation
+## Getting Started
 
-1. Clone the repository.
-2. Run `npm install` to install the dependencies.
-3. Run `ng serve` to start the application.
+To get started with this project, follow these steps:
 
-## Usage
+### Prerequisites
 
-1. Enter text in the search input to filter the list.
-2. Click the sort button to toggle between ascending and descending order.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Angular CLI](https://angular.io/cli) (v16 or later)
 
-## Technologies
+### Installation
 
-- Angular
-- Bootstrap 5
-- ng-bootstrap
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/avisekraj/chainNetworkAssignment.git
+   cd angular-item-list-app
+
+2. **Install dependencies:**:
+    ```bash
+    npm install
+
+3. **Run the application:**:
+    ```bash
+    ng serve
+
+    The application should now be running at http://localhost:4200.
+
