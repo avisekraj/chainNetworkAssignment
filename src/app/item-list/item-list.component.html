@@ -1,0 +1,26 @@
+<div class="container mt-5">
+    <h2>Item List</h2>
+  
+    <!-- Filter Input -->
+    <div class="mb-3">
+      <input 
+        type="text" 
+        class="form-control" 
+        placeholder="Filter by name" 
+        [(ngModel)]="filterText" 
+        (ngModelChange)="applyFilter()" />
+    </div>
+  
+    <!-- Sort Buttons -->
+    <div class="mb-3">
+      <button class="btn btn-primary m-2" (click)="sortItems('asc')">Sort Ascending</button>
+      <button class="btn btn-secondary" (click)="sortItems('desc')">Sort Descending</button>
+    </div>
+  
+    <!-- Display Items -->
+    <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+    <ul class="list-group">
+      <li *ngFor="let item of filteredItems" class="list-group-item">{{ item.name }}</li>
+    </ul>
+  </div>
+  

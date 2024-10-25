@@ -6,3 +6,7 @@
     text-align: center;
   }
   
+  .list-group-item {
+    text-transform: capitalize;
+  }
+  
