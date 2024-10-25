@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/avisekraj/chainNetworkAssignment.git
-   cd angular-item-list-app
+   cd chainNetworkAssignment
 
 2. **Install dependencies:**:
     ```bash
@@ -45,4 +45,21 @@ To get started with this project, follow these steps:
     ng serve
 
     The application should now be running at http://localhost:4200.
+
+## Project Structure
+
+Here’s an overview of the project’s main structure:
+
+```plaintext
+src/
+├── app/
+│   ├── item-list/
+│   │   ├── item-list.component.ts        # Main component logic
+│   │   ├── item-list.component.html      # Component HTML template
+│   │   ├── item-list.component.css       # Component CSS
+|   |   ├── item-list.component.spec.ts
+│   ├── app.component.ts                  # Root component
+│   ├── app.component.html                # Root component template
+│   └── app.component.css                 # Root component CSS
+
 
