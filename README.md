@@ -7,10 +7,6 @@ This project is a simple Angular application that fetches a list of items from a
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Development](#development)
-- [Dependencies](#dependencies)
-- [License](#license)
 
 ## Features
 
